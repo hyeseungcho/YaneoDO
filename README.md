@@ -1,7 +1,7 @@
-# YaneoDO
+# YaneoDO 구인구직 
 
 ### 담당 구현기능 
-#### 회원 - myMenu (my야너두(계정설정,기본정보수정), 지원현황, 제안받기현황), 이력서 CRID
+#### 회원 - myMenu (my야너두(계정설정,기본정보수정), 지원현황, 제안받기현황), 이력서 CURD
 ![main](https://user-images.githubusercontent.com/76277232/110754718-74687580-828b-11eb-907a-685f21ba8a86.png)
 
 ## 1. 벤치마킹
