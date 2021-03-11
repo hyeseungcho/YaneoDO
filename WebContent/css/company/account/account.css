@@ -1,0 +1,94 @@
+/* 계정관리 상단 */
+
+.section-header {
+    width: 1100px;
+    margin: 30px auto;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 10px;
+    line-height: 100px;
+}
+
+.section-title:hover {
+    cursor: pointer;
+    color: #aaa;
+}
+
+
+/* 계정관리 사이드 메뉴 */
+
+#side-menu {
+    float: left;
+    width: 249px;
+    height: 900px;
+    border-right: 1px solid #CCCCCC;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.side-menu-profile {
+    padding: 80px 20px;
+}
+
+.side-menu-profile .profile-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.side-menu-profile .profile-info {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.side-menu-profile .profile-btn {
+    margin-top: 20px;
+}
+
+#side-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.side-menu-info {
+    /* width: 2px; */
+    /* margin: 20px 20px; */
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    /* border: 1px solid blue; */
+}
+
+.side-menu-info > div > div {
+    /* border: 1px solid purple; */
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+
+.side-menu-info-link {
+    /* margin: 20px; */
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    /* border: 1px solid cornflowerblue; */
+}
+
+.side-menu-info-link .submenu {
+    padding-left: 50px;
+}
+
+.side-menu-info-link .submenu > a:hover {
+    cursor: pointer;
+    color: #2886FA;;
+}
+
+.side-menu-info-link > div > div{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+

@@ -1,0 +1,73 @@
+
+/* 이미지 섹션 */
+
+
+.section-image {
+    width: 100%;
+    min-width: 1000px;
+    height: 450px;
+    position: relative;
+    /* color: white; */
+}
+
+.title {
+    min-width: 800px;
+    font-weight: 1.2em;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 50px; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.content {
+    text-align: center;
+    width: 570px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.section-image div {
+    text-align: center;
+    position: relative;
+}
+
+
+.section-image .image{
+    width: 100%;
+    height: 450px;
+    background-image: url('/yaneodo/images/company/matchup_image.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1px black solid;
+}
+
+
+/* 첫번째 섹션 */
+
+.section {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.section .content {
+    text-align: center;
+    width: 800px;
+    min-width: 800px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+/* 두번째 섹션 */

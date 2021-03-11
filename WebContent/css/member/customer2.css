@@ -1,0 +1,206 @@
+
+/*회원 - 공고,기업정보,커뮤니티*/
+
+
+    @font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Wemakeprice-Regular';
+        src:
+           url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Regular.woff')
+           format('woff');
+        font-weight: normal;
+        font-style: normal;
+     }
+
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    body, p, div, span, ul, li, dl, dt, dd, table, th, td, a, blockquote, input, textarea, fieldset, h1, h2, h3, h4, h5, h6, small, strong, b, i, em, button {
+        font-family: 'Jal_Onuel';
+        /* font-size: 16px; */
+        /* color: #555555; */
+        /* line-height: 1.5em; */
+    }
+
+	html {
+	        background-color:white!important;
+	}
+
+
+    html>body {
+        overflow-x: scroll;
+        overflow-y: scroll;
+        height: 100%;
+        background-color:white!important;
+     
+    }
+
+    body {
+        margin-bottom: 100px;
+    }
+
+    
+    input:focus {
+        outline: none; 
+    }
+
+
+    .form-control:focus {
+        box-shadow: 0px 0px 0px transparent;
+        border-color: #CCC;
+    }
+
+
+    a {
+        cursor: pointer;
+        color: #333;
+    }
+
+    a:hover, a:focus {
+        color:#333;
+        text-decoration: none;
+    }
+
+    #container {
+       
+        width: 1050px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 70px;
+        
+    }
+
+
+    /* 버튼 관련 */
+
+
+    
+    /* 
+    O : #B6B7D3
+    E : #7F5899
+    F : #BA9AC1
+    A : #462456 
+    */
+
+
+    .btn:focus {
+        outline: none!important;
+    }
+    
+        
+   .btn-primary {
+        background-color: #a4a6d4;
+        border: 1px solid #a4a6d4;
+        outline: none;
+    
+    }
+
+    .btn-primary:hover{
+        
+
+        background-color: #898bcf;
+        border: 1px solid #898bcf; 
+        outline: none;
+        
+    }
+
+
+
+    /* 
+    .btn-default {
+        color: #898bcf;
+        border: #898bcf 1px solid; 
+        outline: none;
+    } */
+
+
+
+
+
+/*customer header CSS*/
+/*헤더메뉴*/
+
+
+#logo{
+            
+    color: blueviolet;
+    font-weight: bold;
+    margin-right: 50px;
+   font-size: 1.2em;
+}
+#headerContainer{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    position:fixed;
+    left: 0;
+    top: 0;
+
+    border-bottom:1px solid #EEE;
+}
+
+#nav .menuLink {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+}
+#nav .menuLink:hover {
+    color: black;
+    padding-bottom: 13px ;
+    border-bottom: 5px solid blueviolet;
+}
+
+#nav .menuLink2 {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: -14px;
+}
+#nav .menuLink2:hover {
+    color: black;
+    padding-bottom: 13px ;
+    
+}
+
+#nav{
+    width: 100%;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#nav ul{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#nav li{
+     margin-left: 40px;
+    float: left;
+    list-style: none;
+
+}
+
+
+
+#nav #search {
+  margin-left:70px;
+}
+
+#nav #bservice{
+    padding:10px 30px;
+    border:1px solid #EEEEEE;
+    border-radius: 30px;
+}
+/*-------------------------------header CSS END ---------------------------*/

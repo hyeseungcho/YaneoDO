@@ -1,0 +1,472 @@
+    
+    /*------ resume_list CSS --------*/
+    .resume-item{
+
+            margin-top: 10px;
+
+           }
+           .resume-box{
+               width: 240px;
+               height: 190px;
+               border: 1px solid #DDD;
+               background-color: white;
+               position: relative;
+               float: left;
+               margin-left: 15px;
+               margin-top: 15px;
+
+           }
+
+           .resume-box .resumeWrite{
+               width: 100%;
+               height: 100%;
+               border-radius: 0;
+               border: none;    
+               background-color: white;
+               /* outline: none !important;
+               box-shadow: none !important; */
+               padding-top: 35px
+           }
+
+           .resume-item .resume-box .wrapper > .box {
+                cursor: pointer;
+                width: 74px;
+                height: 74px;
+                margin: 0 auto;
+                border-radius: 50%;
+                background: #e1e2e3;
+            }
+            .resume-item .resume-box .wrapper > .box.blue{
+                background-color: #258BF7;
+            }
+
+            .resume-item .resume-box .wrapper > p{
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+
+            .resume-item .resume-box .resume-preview{
+                width: 208px;
+                height: 148px;
+                padding: 20px;
+           
+            }
+            .resume-item .resume-box .notcompleted{
+                color: #aaa;
+            }
+            .resume-item .resume-box .completed{
+                color: black;
+            }
+            .resume-item .resume-box .resume-info{
+                border-top:1px solid #ccc;
+                padding: 10px;
+            }
+            .resume-item .resume-box .resume-info > span{
+               margin: 50px;
+               font-size: 16px;
+            }
+
+            /* .linkFont{
+                color:black;
+
+            }
+            .linkFont:hover{
+                text-decoration: none;
+                color: black;
+            } */
+
+            a{
+                color:black;
+               
+            }
+            a:hover{
+                text-decoration: none;
+                color: black;
+               
+            }
+
+            .drop-down-menu{
+                width: 140px; 
+                height: 110px;
+                background-color: white;
+                border: 1px solid #ddd;
+                float: right;
+                position: relative;
+                left:0px;
+                top:-10px;
+                box-shadow:5px 5px 5px #DDD;
+
+            }
+            .drop-down-menu ul{
+                list-style: none;
+                font-size: 14px;
+            }
+            .drop-down-menu ul li{
+               margin: 10px 10px;
+               cursor: pointer;
+            }
+            .drop-down-menu ul li:hover{
+                background-color: #ddd;
+            }
+
+
+            /*delete resume  확인메세지*/
+            .check-delete-box {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: -999;
+                z-index: 1062;
+                /* overflow-x: hidden; */
+            }
+
+            .delete-box {
+            overflow: auto;
+            overflow-x: hidden;
+            max-width: 500px;
+            border-radius: 5px;
+            position: absolute;
+            left: 50%;
+            z-index: 2;
+            background-color: #FFFFFF;
+            opacity: 1;
+            top: 40%;
+            -webkit-transform: translate(-40%,-50%);
+            -ms-transform: translate(-40%,-50%);
+            transform: translate(-40%,-50%);
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+
+        .resume-delete-button {
+            position: relative;
+            padding: 20px;
+            min-height: 50px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-top: 1px solid #EEEEEE;
+        }
+
+        .emhpxA {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            background-color: rgba(0,0,0,0.5);
+            opacity: 1;
+        }
+        
+        
+        /*------------ resume_write CSS ------------------*/
+        
+                #resume-detail .resume-toolbar .other-btns {
+            position: relative;
+            left:900px;
+            top:0px;
+        
+        }
+
+        #resume-app.background-white {
+        background-color: white;
+        }
+        #resume-detail .resume-toolbar .other-btns .btn.border-gray {
+            border-color: #999;
+            width: 40px;
+            min-width: unset;
+            height: 40px;
+            padding: 0;
+            outline: none !important;
+          
+        }
+
+        #resume-detail .resume-toolbar .resume-select-lang > select {
+        border: none;
+        background: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        position: absolute;
+        left:0px;
+        top:0px;
+        width: 100%;
+        height: 100%;
+        padding-left: 37px;
+        }
+        input[type="text"], textarea {
+        box-shadow: none !important;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        resize: none;
+        }
+
+        #resume-detail .resume-basic-info .resume-basic-header .resume-input.resume_title {
+        color: #3b3d40;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 500;
+        margin: 70px 0 50px;
+        }
+        
+        
+        .resume-input-form-group .resume-input {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin-bottom: 3px;
+        border-radius: 0;
+        height: auto;
+        width: 100%;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        outline: none;
+        }
+
+        #resume-detail .resume-about-info .resume-about-header {
+        padding: 20px 0 6px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #3b3d40;
+        border-bottom: 1px solid #bababa;
+        }
+        #resume-detail .resume-about-info .resume-input.about {
+        font-size: 16px;
+        margin-top: 30px;
+        }
+
+        .resume-list .resume-list-header {
+        padding: 40px 0 6px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #3b3d40;
+        border-bottom: 1px solid #bababa;
+        }
+
+        .resume-list .resume-list-body .btn-add, .resume-list .resume-list-body .btn-add:hover, .resume-list .resume-list-body .btn-add:active, .resume-list .resume-list-body .btn-add:focus {
+        color: #176fd8;
+        background-color: transparent;
+        border-bottom: 1px solid #f1f1f1;
+        }
+
+        .resume-list .resume-list-body .btn-add {
+        width: 100%;
+        padding: 30px 0;
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        border: none;
+        border-radius: 0;
+        outline: none;
+        }
+
+    
+
+        #resume-detail .resume-toolbar.fixed-bottom .save-btns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        width: 100%;
+        max-width: 1060px;
+        padding: 10px 5px;
+        margin: 0 auto;
+        }
+
+        #resume-detail .resume-toolbar.fixed-bottom .save-btns .btn.border-primary {
+        min-width: 94px;
+        border-color: #258bf7;
+        color: #258bf7;
+        }
+
+        #resume-detail .resume-toolbar.fixed-bottom .save-btns .btn {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 50px;
+        font-size: 15px;
+        }
+
+        button, .btn-group, .open, .dropdown-toggle, .btn {
+        box-shadow: none !important;
+        }
+        #resume-detail .resume-toolbar.fixed-bottom .save-btns > div {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            width: 184px;
+            padding: 0 5px;
+        }
+        #resume-detail .resume-toolbar.fixed-bottom .save-btns .btn.btn-primary {
+        border-color: #258bf7;
+        }
+
+        /*추가메뉴*/
+        .sortable-item {
+            margin: 0;
+            padding: 30px;
+            position: relative;
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid #f1f1f1;
+            background-color: transparent;
+        }
+        .sortable-item:last-child {
+            /* border-bottom: none; */
+        }
+        .list-group-item:last-child {
+            margin-bottom: 0;
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        .list-group-item:first-child {
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+        }
+
+        .list-group-item {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+            margin-bottom: -1px;
+            background-color: #fff;
+            /* border-top: 1px solid #ddd;
+             */
+        }   
+
+        .list-group-item:hover{
+            background-color: #F8F8FA;
+        }
+
+        .period .datetime {
+            position: relative;
+            left:0px;
+            top:0px;
+        }
+        .period .form-group [type='text'].year, .period .form-group [type='textarea'].year {
+            width: 36px;
+        }
+        .period .form-group [type='text'].month, .period .form-group [type='textarea'].month {
+            width: 26px;
+            margin-left: 4px;
+        }
+        .period .form-group {
+            margin: 0;
+        }
+        
+        .period .start-time, .period .end-time, .period .form-group {
+            display: inline-block;
+        }
+
+        .period .form-group [type='text'], .period .form-group [type='textarea'] {
+            width: 30px;
+            height: auto;
+            padding: 0;
+            border: none;
+            border-radius: 0;
+            font-size: 14px;
+            font-weight: 500;
+            background-color: transparent;
+        }
+      
+        .form-control {
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #d2d3d4;
+            border-radius: 3px;
+            -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+            -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+
+
+        .checkbox label {
+            padding: 0;
+        }
+        .radio label, .checkbox label {
+            min-height: 20px;
+            padding-left: 20px;
+            margin-bottom: 0;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        .period .checkbox input {
+            top: 1px;
+            width: 12px;
+            height: 12px;
+        }
+        .checkbox input[type="checkbox"] {
+            top: 2px;
+            width: 14px;
+            height: 14px;
+            margin: 0;
+            margin-right: 5px;
+            position: relative;
+            border: 0;
+            background-size: cover;
+          
+        }
+        .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+            position: absolute;
+            margin-left: -20px;
+            margin-top: 4px \9;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin: 4px 0 0;
+            margin-top: 1px \9;
+            line-height: normal;
+        }
+        input[type="checkbox"], input[type="radio"] {
+            box-sizing: border-box;
+            padding: 0;
+        }
+        .career-item .resume-input.company_name {
+            color: #75757D;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .career-item .resume-input.title {
+            margin-left: 0px;
+            margin-top:10px;
+            font-size: 16px;
+            color: #75757D;
+        }
+
+
+        .resume-input-form-group .resume-input {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin-bottom: 3px;
+            border-radius: 0;
+            height: auto;
+            width: 100%;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .sortable-item .btn-delete {
+            position: absolute;
+            color: #d1d1d1;
+            font-size: 10px;
+            padding: 15px;
+            top: 21px;
+            right: 15px;
+        }

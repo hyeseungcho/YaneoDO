@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    #section {
+        margin: 0px auto;
+        margin-top: -3px;
+        width: 1100px;
+    }
+
+    #slider {
+        margin-top: 50px;
+    }
+
+    .bxslider {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .bxslider .images {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .arrowsSm {
+        color: rgba(88, 88, 88, 0.877);
+        font-size: 15px;
+        float: right;
+        position: absolute;
+        right: 120px;
+        top: -10px;
+        margin: 10px;
+    }
+
+    .arrowsSm span{
+        margin: 10px;
+    }
+
+    .arrowsSm span:hover{
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    #recommend, #new, #theme {
+        width: 1200px;
+        margin-bottom: 100px;
+    }
+
+    .companyPic {
+        width: 250px;
+        height: 190px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .themePic {
+        width: 522px;
+        height: 190px;
+        background-image: url("/yaneodo/images/company/snow.jpg");
+        border-radius: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    #recommend .details, #new .details {               
+        margin-top: 10px;
+        margin-right: 22px;
+        float: left;
+    }
+
+    #theme .details {           
+        margin-top: 10px;
+        margin-right: 22px;
+        float: left;
+    }
+
+    .title {
+        font-family: Jal_Onuel;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 2px;
+    }
+
+    .desc {
+        font-family: Jal_Onuel;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .sm {
+        font-size: 13px;
+    }
+
+
+/* 검색 */
+
+    #searchBox1 {
+        width: 100%;
+        height: 240px;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+    }
+
+    #searchBox2 {
+        width: 800px;
+        height: 135px;
+        margin: 0px auto;
+        position: relative;
+        top: 50px;
+        left: 0px;
+        z-index: 5;
+    }
+
+    #searchCon {
+        float: left;
+        margin: 5px;
+        transform: translate(0px, 12px);
+    }
+
+    #searchKey {
+        width: 700px;
+        margin: 5px;
+        padding: 5px 20px;
+        border: 1px solid #acacac;
+        border-radius: 30px;
+        height: 40px;
+        float: left;
+    }
+
+    #searchBox1 #selTag {
+        width: 730px;
+        margin: 0px auto;
+    }
+
+    #searchBox1 #selTag ul {
+        margin-top: 15px;
+    }
+
+    #searchBox1 #selTag li {
+        border: 1px solid rgb(201, 201, 201);
+        float: left;
+        list-style: none;
+        margin-right: 15px;
+        padding: 7px 20px; 
+        border-radius: 30px;
+    }
+
+    #searchBox1 #selTag li a {
+        text-decoration: none;
+        cursor: pointer;
+        color: grey;
+    }
+    
+    #searchBox1 #selTag::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    #searchBox1 span {
+        font-size: 15px;
+    }
+
+
+
+/* 로그인 */
+#clogin, #cpassword {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    width: 410px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 15px;
+}
+
+#cpassword {
+    height: 280px;
+}
+
+.logo {
+    color: blueviolet;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 1.2em;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#clogin div, #cpassword div{
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+
+#clogin .logo, #cpassword .logo {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 5px 10px;
+}
+
+#clogin #title {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0px 25px 0px;
+    padding: 5px 10px;
+}
+
+#clogin .subtitle, #cpassword .subtitle {
+    /* border: 1px solid red; */
+    text-align: left;
+    margin: 0px 15px;
+    transform: translate(0px, 10px);
+}
+
+#cpassword .subtitle {
+    margin-top: 40px;
+}
+
+#emailClose, #cpasswordClose {
+    position: absolute;
+    right: 10px;
+}
+
+#clogin #email, #cpassword #password {
+    width: 360px;
+    padding: 10px 10px;
+    outline: none;
+}
+
+#clogin #btn1, #cpassword #btn2 {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 30px;
+    width: 350px;
+    background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    margin: 10px 0px 25px 0px;
+    padding: 5px 30px;
+    outline: none;
+}
+
+#clogin button:hover, #cpassword button:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+
+#clogin .btnClose, #cpassword .btnClose {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+
+

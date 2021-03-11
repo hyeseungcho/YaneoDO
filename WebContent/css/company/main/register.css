@@ -1,0 +1,41 @@
+    body {
+        margin-bottom: 120px;
+    }
+
+    #companyJoin {
+        transform: translate(0px, 50px);
+        /* border: 1px solid blue; */
+        width: 760px;
+        margin: 0px auto;
+    }
+
+    #companyJoin #title {
+        transform: translate(10px, 0px);
+        margin: 50px 0px;
+    }
+
+    #companyJoin #title p:first-child {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #companyJoin #title p:last-child {
+        font-size: 16px;
+    }
+
+    .withFloat {
+        float: left;
+    }
+
+    .withFloat:first-child{
+        margin-right: 50px;
+    }
+
+    .subbox {
+        margin-bottom: 25px;
+    }
+
+    .subbox #submit {
+        position: absolute;
+        right: 10px;
+    }

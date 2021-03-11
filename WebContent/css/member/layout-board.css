@@ -1,0 +1,97 @@
+
+/* 게시판 layout */
+
+html>body {
+	background-color: white;
+}
+
+
+/* left-side 메뉴 */
+
+#side {
+    float: left;
+    width: 240px;
+    height: 600px;
+    line-height: 50px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+}
+
+#side li {
+    list-style: none;
+    height: 25px;
+    margin-left: 20px;
+}
+
+#side .sideName {
+    border-bottom: solid 1px #CCCCCC;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.sideGroup {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#side .side-list-item {
+    font-size: 16px;
+}
+
+#side .side-list-item:hover {
+    cursor: pointer;
+    font-weight: 1.2em;
+}
+
+#side .side-list-item-selected {
+    color: blueviolet;
+    /* color: #7F5899; */
+    /* color: #BA9AC1; */
+    /* color: #462456; */
+    font-weight: 30px;
+}
+
+
+
+
+/* 내용 */
+
+#content {
+    float: left;
+    max-width: 800px;
+    min-height: 700px;
+    line-height: 50px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+
+#content .title {
+    font-size: 24px;
+    border-bottom: 1px solid #999;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.title>small {
+    font-variant: small-caps;
+    color: #999;
+}
+
+
+/* 페이지 */
+
+#paging {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+
+#paging>nav>ul>li>a {
+    font-size: 14px;
+    color: #666;
+}
+

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+   /* 사이드메뉴 전체 컨트롤 */
+   #sidemenu {
+        float: left;
+        width: 200px;
+        display: inline;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    /* 왼쪽 메뉴 */
+    #accordion {
+        font-family: 'Jal_Onuel';
+    }
+
+    #accordion .sname {
+        margin-left: 20px; 
+        border: 0px;
+    }
+    
+    #accordion .panel-heading a {
+        text-decoration: none;
+        
+    }
+    
+    #accordion .panel-heading {
+        background-color: white;
+        border-bottom: 2px solid #ccc;
+    }
+    
+    .panel {
+        border: 0px;
+        margin-left: 10px;
+    }
+    
+    #accordion .sname:hover {
+        cursor: pointer;
+        color: blueviolet;
+    }

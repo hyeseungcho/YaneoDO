@@ -1,0 +1,389 @@
+/* 매치업 검색 부분 */
+
+#section-search {
+    height: 130px;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    margin-bottom: 40px;
+}
+
+#section-search .btn-search {
+    width: 100px;
+}
+
+#section-search .title {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#section-search .form-control {
+    height: 60px;
+}
+
+#section-search input[type=radio] {
+    margin-left: 10px;
+}
+
+.search-slt{
+    display: block;
+    width: 100%;
+    /* font-size: 0.875rem; */
+    /* line-height: 1.5; */
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+
+/* 레이아웃 확인용 */
+.row div {
+    /* border: solid 1px black; */
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* 매치업 사이드 메뉴 */
+
+#side-matchup {
+    float: left;
+    width: 299px;
+    min-height: 980px;
+    line-height: 50px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+}
+
+#side-matchup li {
+    list-style: none;
+    height: 25px;
+    margin-left: 20px;
+}
+
+#side-matchup .sideName {
+    border-bottom: solid 1px #CCCCCC;
+    padding-bottom: 5px;
+}
+
+.sideGroup {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.btn-middle {
+    width: 210px;
+    height: 50px;
+    margin-left: 8%;
+}
+
+#side-matchup .side-list-item:hover {
+    cursor: pointer;
+    font-weight: 1.2em;
+}
+
+#side-matchup .side-list-item-selected {
+    color: #3d42d1;
+    font-weight: 30px;
+}
+
+
+
+/* 검색 결과 프로필 목록 표시 */
+
+#search-reasult {
+    float: left;
+    width: 800px;
+    /* border: 1px solid black; */
+}
+
+#search-reasult .container {
+    width: 780px;
+    height: 220px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+    /* border: 1px solid black; */
+}
+
+#search-reasult .container .left-item {
+    border-right: 1px solid #ccc;
+    height: 220px;
+}
+
+#search-reasult .container .right-item {
+    border-right: 1px solid #ccc;
+    /* padding: 5px; */
+    height: 220px;
+}
+
+#search-reasult .row div div {
+    margin-top: 11px;
+}
+
+#search-reasult div {
+    font-size: 1.1em;
+}
+
+#search-reasult span {
+    font-size: 0.6em;
+    margin-left: 10px;
+}
+
+.matchList .matchTitle {
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #444;
+}
+
+.matchList .subInfo {
+	color: #777;
+}
+
+/* 이미지 컨테이너 */
+#search-reasult .pic {
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid #CCCCCC;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+/* 이미지 */
+#search-reasult .pic img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* object-fit: cover; */
+}
+  
+   
+/* 페이징 */
+#paging {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#paging a {
+    color: #555555;;
+}
+
+
+/* modal */
+
+.modal-body {
+    padding: 40px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+
+
+.modal-title {
+    text-align: center;
+}
+
+.first-body {
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.modal-body .title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.modal-body .subtitle{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.modal-body .text{
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.modal-body .masking {
+    background-color: #333333;
+}
+
+
+.modal-footer.viewinfo {
+    /* background-color: #b79ced; */
+    background-color: #2886FA;
+}
+
+#modalResumePreview #mrpResumeData {
+	height: 200px;
+	overflow: hidden;
+}
+
+
+/* 이력서 상세보기 Modal */
+
+#modalResumeDetail .downlaod {
+    float: right;
+}
+
+#modalResumeDetail .downlaod:hover {
+    /* background-color: #cbe0fa; */
+    color: #2886FA;
+    cursor: pointer;
+}
+
+#modalResumeDetail .modal-body-title-download{
+    font-size: 12px;
+    float: right;
+    line-height: 30px;
+    margin-left: 10px;
+
+}
+
+.modal-footer .modal-footer-text {
+    float: left;
+    color: white;
+    text-align: left;
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+
+.modal-content-top {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* modal 스크롤 되도록 설정 */
+#modalResumeDetail .modal-content {
+    overflow-y: initial !important
+}
+
+#modalResumeDetail .modal-content-middle {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.modal-content-middle .resume-info {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #ccc;
+}
+
+/* modal 스크롤바 없애기 */
+.modal-content-middle::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+/* modal창 호출시 스크롤바 사라지는것 방지 */
+.modal-open {
+    overflow: overlay;
+}
+
+.blue-masking {
+    width: 660px;
+    height: 45px;
+    position: absolute;
+    top: 105px;
+    left: 95px;
+    color: white;
+    background-color: #7fb8fd;
+    font-size: 0.9em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+#modalResumeDetail .resume-detail-footer {
+    background-color: white;
+    box-shadow: 0px -5px 30px 4px #DDD;
+}
+
+#modalResumeDetail .modal-footer .footer-left {
+    float: left;
+}
+
+#modalResumeDetail .modal-footer .resume-detail-footer-text {
+    text-align: left;
+    margin: 0;
+    color: 2886FA;
+}
+
+
+.modal input, textarea, select {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* service modal */
+#service .modal-body {
+	padding: 40px;
+}
+
+.modal-body .service-box {
+	border: 1px solid black;
+}
+
+.modal-body .service-box:hover {
+	border: 1px solid #2886FA;;
+	background-color: #d9eaff;
+	
+}
+
+.modal-body .top {
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+	text-align: center;
+}
+
+.modal-body .bottom {
+	padding: 10px;
+}
+
+
+.modal-body .title {
+	font-size: 2.1em;
+}
+
+.modal-body .subtitle {
+	font-size: 1.2em;
+}
+
+.modal-body .detail {
+	font-size: 0.9em;
+}
+
+.basic {
+	width: 280px;
+}
+
+.lite {
+	width: 280px;
+	float: right;
+}
+
+.selected {
+	border: 1px solid #2886FA;
+	background-color: #EDF7FF;
+	
+}
+
+
+

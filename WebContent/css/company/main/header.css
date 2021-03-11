@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+        font-family: 'Wemakeprice-Regular';
+        src:
+           url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Regular.woff')
+           format('woff');
+        font-weight: normal;
+        font-style: normal;
+     }
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body, p, div, span, ul, li, dl, dt, dd, table, th, td, a, blockquote, input, textarea, fieldset, h1, h2, h3, h4, h5, h6, small, strong, b, i, em {
+        font-family: 'Jal_Onuel';
+        /* color: #555555; */
+        /* line-height: 1.5em; */
+        /* font-size: 15px; */
+
+        /* font-family: "Jal_Onuel"; */
+
+    }
+
+    html{
+        background-color: #EEEEEE;
+    }
+
+    html>body {
+        overflow-y: scroll;
+        height: 100%;
+        background-color: #EEEEEE;
+    }
+
+    div {
+        padding: 0;
+    }
+
+    /*company header CSS*/
+    /*헤더메뉴*/
+    #cheaderContainer #rightmenu #logo{          
+        color: gainsboro;
+        font-weight: bold;
+        position: relative;
+        left: 40px;
+        float: left;
+    }
+
+    #cheaderContainer {
+        width: 100%;
+        height: 50px;
+        background-color: #2B2D2E;
+        line-height: 50px;
+        position:fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;
+    }
+
+    #rightmenu > ul {
+        position: absolute;
+        right: 10px;
+    }
+
+    #rightmenu > ul li{
+        margin-left: 40px;
+        float: left;
+        list-style: none; 
+    }
+
+    #rightmenu .bmenuLink {
+        color: #EEEEEE;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: -14px;
+        padding: 5px 10px;
+    }
+
+
+    #rightmenu .bmenuLink:hover {
+        color: rgb(255, 255, 255);     
+    }
+
+    #rightmenu > ul{
+        margin: 0px auto;
+        position: absolute;
+        right: 30px;
+        top: 0px;
+    }

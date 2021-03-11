@@ -1,0 +1,50 @@
+/* css > company > info > view.css */
+
+.section-header {
+    width: 1100px;
+    margin: 30px auto;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 10px;
+    /* font-size: 1.3em; */
+    /* line-height: 100px; */
+}
+
+.section-header .btn{
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+
+
+/* section-body */
+
+
+.section-body {
+    padding: 20px 30px;
+    padding-left: 130px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 30px;
+}
+
+.section-body .row {
+    margin-bottom: 40px;
+    /* border: 1px solid black; */
+}
+
+.section-body .title {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+
+/* section-footer */
+
+.section-footer {
+    text-align: center;
+    margin: 20px 0px;
+}

@@ -1,0 +1,56 @@
+
+/* section-header  */
+
+#section-header {
+    width: 1100px;
+    margin: 30px auto;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 10px;
+    /* font-size: 1.3em; */
+    line-height: 70px;
+}
+
+#section-header .btn{
+    font-size: 1.3em;
+}
+
+
+/* section-body */
+
+#section-body .thumbnail {
+    height: 480x;
+    border: 1px solid #CCC;
+    /* background-color: white; */
+}
+
+#section-body .thumbnail img {
+    width: 315px;
+    height: 250px;
+}
+
+#section-body .thumbnail .caption {
+	border-top: 1px solid #ccc;
+}
+
+#section-body .thumbnail p {
+    text-align: right;
+}
+
+#section-body .caption > h3 + p {
+    margin-bottom: 30px;
+}
+
+.finished {
+    background-color: #CCCCCC;
+    opacity: 0.7;
+}
+
+.finished a {
+    pointer-events: none; /*이벤트를 막음*/
+    cursor: default; /*마우스 커서를 포인트에서 디폴트로 변경*/
+}
+
+.thumbnail.position-item:hover {
+    background-color: #b9d9ff;
+    opacity: 0.7;
+}

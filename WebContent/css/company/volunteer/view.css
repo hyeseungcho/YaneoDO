@@ -1,0 +1,213 @@
+/* volunteer -> view */
+
+
+
+/* 지원자 사이드 메뉴 */
+
+#side-member {
+    float: left;
+    width: 249px;
+    height: 100%;
+    line-height: 50px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+}
+
+#side-member li {
+    list-style: none;
+    height: 25px;
+    margin-left: 20px;
+}
+
+#side-member .sideName {
+    border-bottom: solid 1px #CCCCCC;
+    padding-bottom: 5px;
+}
+
+.sideGroup {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#side-member .side-list-item:hover {
+    cursor: pointer;
+    font-weight: 1.2em;
+}
+
+#side-member .side-list-item-selected {
+    color: #3d42d1;
+    font-weight: 30px;
+}
+
+
+
+/* 컨텐츠 부분 */
+
+
+#content {
+    color: #555555;
+    float: left;
+    min-width: 830px;
+    max-width: 830px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+#content .row {
+    padding: 15px;
+}
+
+
+
+
+#content div {
+    /* border: 1px solid black; */
+}
+
+.view-info {
+    border: 1px solid  #cccccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+/* 이미지 컨테이너 */
+.view-info .pic {
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid #CCCCCC;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+/* 이미지 */
+.view-info .pic img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* object-fit: cover; */
+}
+
+
+.view-info .title .name { 
+    line-height: 80px;
+}
+
+
+.view-info .btn {
+    float: right;
+    /* line-height: 20px; */
+}
+
+
+
+#content .tag {
+    line-height: 80px;
+    font-size: 0.3em;
+}
+
+
+
+.view-resume {
+    border: 1px solid  #cccccc;
+    padding: 10px;
+    margin: 20px;
+    background-color: #FFFFFF;
+}
+
+.view-resume-header {
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.view-resume-container {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+.view-resume-body {
+
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.masking {
+    width: 620px;
+    height: 45px;
+    position: absolute;
+    top: 100px;
+    left: 85px;
+    color: white;
+    background-color: #2886FA;
+    font-size: 1.1em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
+}
+
+
+.make-line {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.subtitle{ 
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+
+/* 면접 제안 modal */
+
+#interview .modal-body-title {
+	margin-top: 10px;
+}
+
+.modal input, textarea {
+    margin-bottom: 10px;
+}
+
+
+/*
+
+.modal-body .title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.modal-body .subtitle{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.modal-body .text{
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+ */

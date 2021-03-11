@@ -1,0 +1,71 @@
+/* 검색 */
+
+#searchBox1 {
+    width: 100%;
+    height: 240px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+#searchBox2 {
+    width: 800px;
+    height: 135px;
+    margin: 0px auto;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    z-index: 5;
+}
+
+#searchCon {
+    float: left;
+    margin: 5px;
+    transform: translate(0px, 12px);
+}
+
+#searchKey {
+    width: 700px;
+    margin: 5px;
+    padding: 5px 20px;
+    border: 1px solid #acacac;
+    border-radius: 30px;
+    height: 40px;
+    float: left;
+}
+
+#searchBox1 #selTag {
+    width: 730px;
+    margin: 0px auto;
+}
+
+#searchBox1 #selTag ul {
+    margin-top: 15px;
+}
+
+#searchBox1 #selTag li {
+    border: 1px solid rgb(201, 201, 201);
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    padding: 7px 20px; 
+    border-radius: 30px;
+}
+
+#searchBox1 #selTag li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+}
+
+#searchBox1 #selTag::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#searchBox1 span {
+    font-size: 15px;
+}

@@ -1,0 +1,47 @@
+/* body {
+    margin-bottom: 200px;
+    margin: 0px;
+} */
+
+#form1 {
+	/* border: 1px solid blue; */
+	width: 450px;
+	margin: 0px auto;
+	transform: translate(0px, 70px);
+	min-height: 1000px;
+	margin-bottom: 50px;
+}
+
+#form1 #jointitle {
+	font-size: 2em;
+	margin-bottom: 20px;
+	/* text-align: center; */
+	/* font-weight: bold; */
+}
+
+#form1 .box {
+	/* border: 1px solid red; */
+	margin: 15px 10px;
+	padding: 5px 10px;
+}
+
+#form1 .withFloat {
+	float: left;
+	margin-right: 5px;
+	/* text-align: justify; */
+}
+
+#agree {
+	margin: 10px 5px 15px;
+}
+
+.box button {
+	border: 1px solid rgb(216, 216, 216);
+	border-radius: 30px;
+	width: 400px;
+	text-align: center;
+	background-color: rgb(151, 151, 151);
+	font-size: 15px;
+	/* padding: 5px 30px; */
+	outline: none;
+}

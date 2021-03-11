@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+	#pageAll {
+	    width: 1200px;
+	    margin: 50px auto 0px auto;
+	    background-color: white;
+	}
+
+    /* manager-serviceCenter */
+    .back-img{
+        background-image: url(/yaneodo/images/admin/sky.jpg);
+        background-position: 0px -200px;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .back-img #search #search {
+        border: 1px solid #888;
+        padding: 10px 55px 10px 30px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        border-radius: 25px;
+        width: 500px;
+    }
+
+    .back-img #search #commit {
+        width: 10px;
+        height: 10px;
+        float: right;
+    }
+
+    #question li {
+        border: 1px solid #CCC;
+        list-style: none;
+        padding: 10px 0px;
+    }
+
+    #question li h3, #question li p  {
+        color: #434343;
+    }
+
+    #question li h3:hover, #question li a:hover  {
+        color: #888;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    
+    .container .article li {
+        list-style: none;
+        font-size: 1.2em;
+        margin: 20px 0px;
+    }
+    
+    .container .article li a {
+        color: black;
+    }
+    
+    .container .article li a:hover {
+        color: blue;
+        text-decoration: none;
+    }
+    
+    
+    /* manager-serviceContent */
+
+    .aperture {
+        padding: 10px 0px;
+    }
+
+    .serviceMove li {
+        display: inline-block;
+        list-style-type: none;
+        font-size: 1.2em;
+    }
+
+    .serviceMove li a {
+        font-size: 0.8em;
+        color: #333;
+    }
+
+    .serviceMove li a:hover {
+        color: #333;
+    }
+
+    .content {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .content .content-body {
+        margin-top: 60px;
+    }
+
+    .sidemenu ul li:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    .sidemenu ul li {
+        list-style-type: none;
+        padding-bottom: 15px;
+    }
+
+    .sidemenu ul li a {
+        color: #434343;
+    }
+
+    #under {
+        padding: 100px 0px;
+        margin-left: 40px;
+    }
+
+    /* manager-serviceQuestion */
+
+    .question-enrollment {
+        margin: 80px 40px;
+    }
+
+    .question-enrollment .interval {
+        margin-top: 50px;
+    }
+
+    .email-input {
+        width: 50%;
+        float: left;
+        display: inline-grid;
+        margin-bottom: 10px;
+    }
+
+    .email-input label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .email-input input {
+        border: 1px solid #DDD;
+        margin-bottom: 15px;
+        min-height: 35px;
+        border-radius: 3px;
+        padding: 0 10px;
+        width: 500px;
+    }
+
+    .tel-input {
+        width: 50%;
+        float: right;
+        display: inline-grid;
+        margin-bottom: 10px;
+    }
+
+    .tel-input label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .tel-input input {
+        border: 1px solid #DDD;
+        margin-bottom: 15px;
+        min-height: 35px;
+        border-radius: 3px;
+        padding: 0 10px;
+        width: 500px;
+    }
+
+    .title-input {
+        width: 100%;
+        float: right;
+        display: inline-grid;
+        margin-bottom: 10px;
+    }
+
+    .title-input label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .title-input input {
+        border: 1px solid #DDD;
+        margin-bottom: 15px;
+        min-height: 35px;
+        border-radius: 3px;
+        padding: 0 10px;
+        width: 1060px;
+    }
+
+    .content-input {
+        width: 100%;
+        float: right;
+        display: inline-grid;
+        margin-bottom: 10px;
+    }
+
+    .content-input label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .content-input textarea {
+        border: 1px solid #DDD;
+        margin-bottom: 15px;
+        min-height: 35px;
+        border-radius: 3px;
+        padding: 0 10px;
+        width: 1060px;
+    }
+
+    footer #commit {
+        width: 100px;
+        border-radius: 20px;
+        background-color: #555;
+        color: white;
+        display: block;
+        margin: 30px auto;
+    }
+
+
+    /* manager-serviceList */
+    #questionManager {
+        width: 900px;
+    }
+
+    #subtitle {
+        font-size: 2em;
+        display: inline-block;
+    }
+
+    #questionList tr, #questionList td, #questionList th {
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        text-align: center;           
+    }
+
+    #questionList th {
+        padding: 10px 0px;
+    }
+
+    #questionList tbody tr:hover {
+        background-color: #DDD;
+        cursor: pointer;
+    }
+
+    #questionList .number {
+        width: 40px;
+        height: 40px;
+    }
+
+    #questionList .title {
+        width: 600px;
+    }
+    
+    #questionList .email {
+        width: 200px;
+    }
+
+    #questionList .date {
+        width: 60px;
+    }
+
+    /* manager-serviceAnswer.html */
+    
+    #question-query {
+        border-top: 2px solid #888;
+        width: 900px;
+        border-collapse: collapse;
+        margin-top: 30px;
+    }
+
+    #question-query th {
+        border-top: 2px solid #888;
+        border-bottom: 2px solid #888;
+        padding: 8px 10px;
+    }
+
+    #question-query td {
+        border-top: 1px solid #888;
+        border-bottom: 1px solid #888;
+        padding-left: 10px;
+        height: 100px;
+    }
+
+    #question-query .regdate {
+        float: right;
+    }
+
+    #answerManager {
+        margin-top: 50px;
+    }
+
+    /* 보류 */
+    .receiver-email {
+        width: 900px;
+        border-top: 1px solid #888;
+        border-bottom: 1px solid #888;
+        margin: 10px;
+    }
+
+    #answertext {
+        margin-top: 10px;
+    }
+
+    .input {
+        text-align: center;
+    }
+

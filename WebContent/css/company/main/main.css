@@ -1,0 +1,194 @@
+    #contents .section {
+        transform: translate(0px, 50px);
+    }
+
+    #section1 > p {
+        /* border: 5px solid red; */
+        font-family: "Wemakeprice-Regular";
+        width: 100%;
+        color: #b8b8b8;
+        font-size: 3em;
+        line-height: 1.6em;
+        text-align: center;
+        padding: 70px;
+        margin: 0px;
+    }
+    
+    #section1 > p span {
+        font-family: "Wemakeprice-Regular";
+        color: #3b3b3b;
+    }
+
+    #section2 {
+        width: 100%;
+        height: 570px;
+        background-image: url("/yaneodo/images/company/registerMain.jpg");
+        background-size: cover;
+        background-position-y: center;
+        opacity: 1;
+    }
+
+    #subsection {
+        background-color: rgba(228, 228, 228, 0.5);
+        /* opacity: .5; */
+        color: black;
+        text-align: center;
+        width: 1584px;
+        height: 450px;
+        margin: 0px auto;
+		transform: transfer(0px, 600px);
+        padding: 70px;
+        
+    }
+
+    #subsection h1 {
+        width: 300px;
+        height: 200px;
+        display: block;
+        float: left;
+        font-size: 50px;
+        margin: 20px 50px 0px;
+    }
+    
+    #subsection #service li{
+        list-style: none;
+        margin-bottom: 50px;
+    }
+    
+    #subsection #service h2{
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    #subsection #service div{
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    #subsection #service {
+        width: 900px;
+        margin-left: 50px;
+        float: left;
+    }
+    
+    #subsection #service::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    #section4 {
+        font-family: "Wemakeprice-Regular";
+        width: 980px;
+        height: 500px;
+        color: #b8b8b8;
+        font-size: 3em;
+        line-height: 1.6em;
+        color: black;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: 0px auto;
+    }
+
+    #section4 h1 {
+        width: 590px;
+        display: block;
+        float: left;
+        font-size: 50px;
+        text-align: left;
+        padding: 150px 0px 0px 50px;
+        margin: 0px;
+    }
+    
+    #section4 #service li{
+        list-style: none;
+        margin-left: 15px;
+        float: left;
+    }
+    
+    #section4 #service {
+        position: absolute;
+        top: 270px;
+        left: 650px;
+        float: left;
+    }
+    
+    #section4 #service::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /* ------------------------------------로그인------------------------------------ */
+
+    #bLogin, #bJoin {
+        border: 1px solid rgb(192, 192, 192);
+        border-radius: 5px;
+        background-color: white;
+        width: 530px;
+        height: 350px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 15px;
+        z-index: 5;
+        display: none;
+    }
+    
+    #bJoin {
+        height: 540px;
+    }
+    
+    #bLogin #title, #bJoin #title {
+        font-size: 16px;
+        text-align: center;
+        margin: 30px;
+        padding: 5px 10px;
+    }
+    
+    #bLoginClose, #bJoinClose {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    
+    #bLogin #box, #bJoin #box {
+        width: 500px;
+        margin: 0px auto;
+    }
+    
+    #bLogin .subbox input, #bJoin .subbox input {
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 5px;
+        width: 467px;
+        height: 40px;
+        padding: 5px 10px;
+        margin: 7px 15px;
+        outline: none;
+    }
+    
+    #bLogin #subTitle, #bJoin #subTitle {
+        text-align: center;
+    }
+    
+    #bLogin #bLoginBtn2, #bJoin #bJoinBtn2 {
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 5px;
+        width: 467px;
+        height: 40px;
+        background-color: rgb(204, 204, 204);
+        font-size: 15px;
+        margin: 20px;
+        padding: 5px 30px;
+        outline: none;
+    }
+    
+    #bLogin #bLoginBtn2:hover, #bJoin #bJoinBtn2:hover {
+        background-color: rgb(218, 218, 218);
+    }
+
+    
